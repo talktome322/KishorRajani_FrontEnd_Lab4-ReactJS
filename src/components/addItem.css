@@ -1,0 +1,71 @@
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background: white;
+    min-width: 60%;
+}
+
+form {
+    width: 60%;
+}
+
+form > div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.action-buttons button {
+    margin: 10px;
+    background-color: #067c47;
+    border: none;
+}
+
+.action-buttons button:hover, button:focus, button:active {
+    background-color: #067c47;
+    border: none;
+}
+
+.header {
+    background-color: #33b673;
+    width: 60%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.form-container h4 {
+    padding: 0px;
+}
+
+p {
+    color: white;
+    text-align: left;
+}
+
+.important {
+    color: #bb0000;
+    margin: 0px;
+}
+
+@media screen and (max-width: 900px) {
+    form {
+        width: 90%;
+    }
+    .form-container {
+        min-width: 90%;
+    }
+    .header {
+        width: 90%;
+    }
+}

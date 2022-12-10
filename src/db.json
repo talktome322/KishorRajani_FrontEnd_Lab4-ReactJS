@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "setDate": "2022-10-31",
+      "price": 100,
+      "payeeName": "Rahul",
+      "product": "Veggies",
+      "id": 2
+    },
+    {
+      "setDate": "2022-10-31",
+      "price": 200,
+      "payeeName": "Ramesh",
+      "product": "Uno",
+      "id": 3
+    }
+  ]
+}

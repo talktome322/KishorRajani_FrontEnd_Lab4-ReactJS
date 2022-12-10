@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.items-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+table {
+  width: 60%!important;
+}
+
+h4 {
+  padding: 10px;
+  background-color: #33b673;
+  color: white;
+}
+
+button {
+  background-color: #067c47!important;
+  border: none;
+  padding: 10px 30px!important
+}
+
+button:hover, button:focus, button:active {
+  background-color: #067c47!important;
+  border: none;
+}
+
+@media screen and (max-width: 900px) {
+  table {
+    width: 90%!important;
+  }
+
+  .items-container {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 40px;
+  }
+
+  button {
+    margin-bottom: 20px;
+  }
+}
